@@ -12,11 +12,18 @@ The project includes a script to create , a training script that outputs, and a 
 
 `inference.py`: script for performing inference of a trained model on a sequence of images. Outputs the detection results on the image frames in a video.
 
+`dataset.py`: PyTorch dataset class for object detection.
+
+`models.py`: Contains functions to load pre-trained ssd and faster rcnn models.
+
+`plot.py`: Contains helper functions to plot the losses and metrices of trained models.
+
 # Video of Inference on an Image Sequence
 
 https://github.com/user-attachments/assets/bfa27d6a-c204-4aa2-870c-cbd7d947fcc4
 
 #  Plots
+<img width="2539" height="1638" alt="train_total_loss" src="https://github.com/user-attachments/assets/89e8e789-d9ac-4266-8f28-eb475d30acd0" />
 <img width="1000" height="auto" alt="f1_confidence" src="https://github.com/user-attachments/assets/ead02bf2-0f8c-4d5d-a51d-1973f9abe91f" />
 <img width="1000" height="auto" alt="precision_recall" src="https://github.com/user-attachments/assets/1af0bdbb-99c3-4cda-9953-cde57af4bd9b" />
 
